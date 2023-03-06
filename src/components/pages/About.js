@@ -3,15 +3,14 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <section>
+            <img src="/assets/images/myphoto.JPG" alt="profile picture"></img>
+        </section>
+    
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <p>Hello! My name is Jessica Oboh. Welcome to my portfolio page. I am new to web development and building my skills. I am a self starter and work well independantly. I also have great communication skills and am a great team member. I am currently developing my skills in basic HTML, CSS, and Javascript.</p>
+        </section>
     </div>
   );
 }
